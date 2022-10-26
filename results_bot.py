@@ -8,9 +8,9 @@ import discord
 from discord.ext import commands
 
 
-CHANNEL_ID = 937226359623798858
+CHANNEL_ID = <INSERT_CHANNEL_ID_INTEGER>
 
-DISCORD_BOT_TOKEN = "OTM3MjI2MDQ5MjM2OTI2NDc1.GpLLPO.4qDmASwywdI3vJ04M3grGXedR8yXCN4f6PHsr8" #"ODk3NTU4NzQ3NTU4MzE0MDQ0.YWXauQ.XAstCrblSXDAvq2xmZWcHLvprr4" #os.getenv("DISCORD_TOKEN")
+DISCORD_BOT_TOKEN = <INSERT_TOKEN> #"ODk3NTU4NzQ3NTU4MzE0MDQ0.YWXauQ.XAstCrblSXDAvq2xmZWcHLvprr4" #os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 intents.members = True
